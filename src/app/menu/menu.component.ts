@@ -1,6 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { Dish } from '../shared/dish';
 
+constructor() { }
+
+ngOnInit(): void {
+}
+
 @Component({
   selector: 'app-menu',
   templateUrl: './menu.component.html',
