@@ -17,7 +17,7 @@ export class MenuComponent implements OnInit {
       featured: true,
       label: 'Hot',
       price: '4.99',
-      // tslint:disable-next-line:max-line-length
+      //tslint:disable-next-line:max-line-length
       description: 'A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.'
     },
     {
@@ -50,11 +50,10 @@ export class MenuComponent implements OnInit {
       price: '2.99',
       description: 'A delectable, semi-sweet New York Style Cheese Cake, with Graham cracker crust and spiced with Indian cardamoms'
     }
-   ];
+  ];
 
   constructor() { }
 
   ngOnInit() {
   }
-
 }
