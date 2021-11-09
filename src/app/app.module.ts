@@ -7,12 +7,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MenuComponent } from './menu/menu.component';
 import { MatListModule } from '@angular/material/list';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { SpeedtrackComponent } from './speedtrack/speedtrack.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
-    DashboardComponent
+    DashboardComponent,
+    SpeedtrackComponent
   ],
   imports: [
     BrowserModule,
